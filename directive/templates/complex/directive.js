@@ -19,9 +19,11 @@ function <%= _.camelize(name) %>() {
 
     }
 
-});
+}
 
 /* @ngInject */
 function <%= _.camelize(name) %> () {
-
+    'use strict';
+    /* jshint validthis: true */
+    var vm = this;
 }
